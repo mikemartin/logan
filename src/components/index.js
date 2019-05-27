@@ -6,6 +6,7 @@ import SliceZone from './SliceZone';
 import Layout from './Layout';
 import Wrapper from './Wrapper';
 import Logo from './Logo';
+import Image from './Image';
 
 export {
   Header,
@@ -16,4 +17,5 @@ export {
   SliceZone,
   Wrapper,
   Logo,
+  Image
 };
