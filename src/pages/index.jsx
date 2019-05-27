@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { graphql } from 'gatsby';
-import { Layout, Wrapper } from '../components';
-import Img from 'gatsby-image';
+import { Layout, Wrapper, Image } from '../components';
 import './index.scss';
 
 class Index extends Component {
@@ -31,7 +30,7 @@ class Index extends Component {
       <Layout location={location} seoData={seoData}>
         <Wrapper>
           <div className="developer-image-hero">
-            <Img className="gatsby-image" fluid={featuredImage.localFile.childImageSharp.fluid} />
+            <Image image={featuredImage} />
           </div>
         </Wrapper>
       </Layout>
